@@ -1,4 +1,4 @@
-FROM #REDIS
+FROM redis
 RUN mkdir -p /etc/redis
 COPY redis.conf /etc/redis/redis.conf
 VOLUME /data
