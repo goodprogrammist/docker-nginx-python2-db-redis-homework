@@ -73,3 +73,4 @@ RUN usermod -u 1000 www-data
 WORKDIR ${WORK_DIR}
 CMD [ "uwsgi" ]
 #PORT
+EXPOSE 9000
